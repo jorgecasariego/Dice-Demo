@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *sumLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *diceOneImageView;
+@property (strong, nonatomic) IBOutlet UIImageView *diceTwoImageView;
 
 @end
